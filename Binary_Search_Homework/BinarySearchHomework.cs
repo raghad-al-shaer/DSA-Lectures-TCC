@@ -27,6 +27,7 @@ namespace Binary_Search_Homework // don't edit this line!!!
             if(key>arr[mid2])
                 return TernarySearch(arr, key, mid2 + 1, end);
             return TernarySearch(arr, key, mid1 + 1, mid2 - 1);
+
         }
 
         public static int BinarySearchForCalculatingRepeated
