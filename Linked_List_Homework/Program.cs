@@ -24,7 +24,7 @@ namespace Linked_List_Homework
             list.RemoveKey(4);
             list.Print();
 
-            Console.WriteLine("\nCreating list 2"); 
+            Console.WriteLine("\nCreating list 2");
             LinkedList list2 = new LinkedList();
             list2.Add(6);
             list2.Add(7);
